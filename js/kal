@@ -1,0 +1,15 @@
+var plus = document.querySelectorAll ('.plus');
+var minus = document.querySelectorAll('.minus');
+var number = document.querySelectorAll('.number');
+var i = 0;
+
+plus[i].onclick = up;
+function up() {
+  var count = Number(number[i].innerHTML);
+  number[i].innerHTML = count += 1;
+}
+minus[i].onclick = down;
+function down() {
+  var count = Number(number[i].innerHTML);
+  number[i].innerHTML = count -= 1;	
+}
