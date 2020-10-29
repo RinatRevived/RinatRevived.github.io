@@ -1,0 +1,635 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 1440px;
+	height: 581;
+	margin: auto;
+}
+
+main {
+	width:1440px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	background-image: url(../img/1.jpg);
+	height: 581px;
+	width: 1440px;
+}
+
+.logo {
+	position: absolute;
+	width: 130px;
+	height: 82.51px;
+	left: 120px;
+	top: 10px;
+	}
+
+.articles {
+	position: absolute;
+	width: 61px;
+	height: 25px;
+	left: 710px;
+	top: 33px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-decoration: none;
+	color: #2E2F22;
+	}
+
+.About_me {
+	position: absolute;
+	width: 76px;
+	height: 25px;
+	left: 854px;
+	top: 33px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+	text-decoration: none;
+}
+
+.Portfolio {
+	position: absolute;
+	width: 100px;
+	height: 25px;
+	left: 1013px;
+	top: 33px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+	text-decoration: none;
+}
+
+.Write_to_me {
+	position: absolute;
+	width: 123px;
+	height: 25px;
+	left: 1196px;
+	top: 33px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+	text-decoration: none;
+}
+.menu-list ul li{
+	list-style-type: none;
+}
+
+.menu-list ul{
+	display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    list-style: none;
+}
+
+h2 {
+	margin-left: 20px;
+	font-family: britannic bold;
+}
+
+.topics{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.list-topic{
+width: 203px;
+height: 46px;
+left: 1116px;
+top: 610px;
+position: absolute;
+background: #D7D1C9;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.topics div{
+	display: flex;
+	flex-direction: column;
+}
+
+.topics div p{
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgba(46, 47, 34, 0.7)
+}
+
+.topics-4 p{
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: grey;
+}
+
+.topics-5 p{
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: grey;
+}
+
+.toppics div div{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.topics-img-1{
+	width: 402px;
+	height: 268px;
+	border-radius: 10px;
+	
+}
+
+.topics-img-2 {
+	width: 402px;
+	height: 268px;
+	border-radius: 10px;
+	
+}
+
+.topics-img-3{
+
+	width: 387px;
+	height: 268px;
+	border-radius: 10px;
+}
+
+.st h4{
+	font-family: britannic bold;
+}
+
+.st span{
+	font-family: candara;
+}
+
+.topics-45{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.topics-4{
+	border-radius: 10px;
+	width: 590px;
+	height: 552px;
+	background-image:url(../img/10.png);
+}
+
+.topics-4 h4{
+	font-family: britannic bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.topics-4 span{
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.topics-5 h4{
+	font-family: britannic bold;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.topics-5 span{
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.topics-5{
+	border-radius: 10px;
+	width: 590px;
+	height: 552px;
+	background-image:url(../img/8.png);
+}
+
+.topics-4-content
+{
+	margin-left: 60px;
+	margin-top: 320px;
+}
+
+.topics-5-content{
+	display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 300px;
+}
+
+.show-more{
+	position: absolute;
+    width: 224px;
+    height: 46px;
+    left: 608px;
+    top: 1773px;
+    border: 1px solid #202117;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: candara;
+}
+
+#about-me {
+display: flex;
+flex-direction: column;
+	position: absolute;
+	justify-content: center;
+	width: 1180px;
+	height: 797.15px;
+	left: 120px;
+	top: 1885px;
+}
+.about-me-heading{
+	display: flex;
+	justify-content: center;
+}
+
+.about-me-content{
+	display: flex;
+	margin-top: 50px;	
+}
+
+.about-me-content-1{
+	margin-right: 50px;
+}
+
+.about-me-content-img{
+	width: 590px;
+	height: 693px;
+	border-radius: 20px;
+}
+
+.about-me-content-text {
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: #2E2F22;}
+
+.about-me-content-text-end{
+	font-family: candara;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 40px;
+	color: #2E2F22;
+}
+
+#portfolio{
+	position: absolute;
+	width: 1200px;
+	height: 779px;
+	left: 120px;
+	top: 2750px;
+}
+
+.portfolio-heading{
+	display: flex;
+	justify-content: center;
+}
+
+.portfolio-content{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.portfolio-content-1{
+	background-image:url(../img/7.png);
+	width: 387px;
+	height: 525px;
+	border-radius: 20px;
+}
+
+.portfolio-content-2{
+	background-image:url(../img/14.png);
+	width: 387px;
+	height: 525px;
+	border-radius: 20px;
+}
+
+.portfolio-content-3{
+	background-image:url(../img/9.png);
+	width: 387px;
+	height: 525px;
+	border-radius: 20px;
+
+}
+
+.portfolio-content-1 h3{
+	font-family: Spectral SC;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #2E2F22;
+}
+
+.portfolio-content-2 h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.portfolio-content-3 h3{
+	font-family: Spectral SC;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #2E2F22;
+}
+
+.portfolio-content-1 span { 
+	text-align:  center;      
+	display: table-cell;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #2E2F22;
+}
+
+.portfolio-content-3 span{ 
+	text-align:  center;     
+	display: table-cell; 
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #2E2F22;
+}
+
+.portfolio-content-2 span{ 
+	text-align:  center;      
+	display: table-cell; 
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.portfolio-content-1-text{ 
+	margin-left: 70px; 
+	margin-top: 150px;
+}
+
+.portfolio-content-3-text{ 
+	margin-left: 40px; 
+	margin-top: 150px;
+}
+
+.portfolio-content-2-text{ 
+	margin-left: 45px; 
+	margin-top: 150px;
+}
+
+.portfolio-button{
+	position: absolute;
+	width: 224px;
+	height: 46px;
+	left: 500px;
+	top: 700px;
+	border: 1px solid #202117;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+ /*стили формы */
+#write-me{
+	position: absolute;
+	width: 996px;
+	height: 741px;
+	left: 222px;
+	top: 3550px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Write_to_me {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	background: url('../img/6.png');
+	border-radius: 10px;
+}
+
+.form_name_email{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	font-family: candara, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+	width: 95%;
+	padding: 10px;
+	margin: 20px; 
+	margin-bottom: 30px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.form_name{
+	outline: none;
+   	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 90%;
+}
+
+.form_name span{
+	font-family: candara;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.form_textarea{
+  margin-right: 200px;
+}
+
+.form_name_email input {
+
+  background: rgba( 255,255,255,.3);
+}
+
+textarea {
+ font-family: candara, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+height: 250px;
+border-radius: 10px;
+box-sizing: border-box;
+background: rgba( 255,255,255,.3);
+width: 100%;
+}
+.form_submit {
+font-family: candara, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+background:rgba(255,255,255, .0);
+border-radius: 10px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-top: 20px;
+margin-bottom: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.form_submit:active { 
+  background:rgba(255,255,255, 0.4);
+}
+
+
+footer {
+	position: absolute;
+	width: 1440px;
+	height: 80px;
+	top: 4300px;
+	background: #D7D1C9;
+	
+}
+
+.footer-menu ul{
+	display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    list-style: none;
+}
+
+.footer-menu ul li{
+	list-style-type: none;
+}
+
+.vk {
+	text-decoration: none;
+width: 23px;
+height: 25px;
+font-family: candara;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #2E2F22;
+}
+
+.teleg{
+	position: absolute;
+	width: 23px;
+	height: 25px;
+	text-decoration: none;
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+}
+.inst{
+	position: absolute;
+	width: 23px;
+	height: 25px;
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+	text-decoration: none;
+}
+
+.twit{
+	position: absolute;
+	width: 23px;
+	height: 25px;
+	text-decoration: none;
+	font-family: candara;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	color: #2E2F22;
+
+}
